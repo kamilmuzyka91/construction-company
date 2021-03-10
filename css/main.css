@@ -555,17 +555,17 @@ textarea {
   display: block;
   text-align: center;
 }
-.btn__wrapper .btn--header {
+.btn__wrapper .btn--open {
   display: inline-block;
   border: none;
   border-radius: 0;
   padding: 1em 2em;
   width: auto;
 }
-.btn__wrapper .btn--header:hover {
+.btn__wrapper .btn--open:hover {
   background-color: #f1c634;
 }
-.btn__wrapper .cta__btn--header {
+.btn__wrapper .cta__btn--open {
   font-size: 1em;
   font: normal 700 1em "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -574,7 +574,7 @@ textarea {
   letter-spacing: 3px;
   background-color: #e2b831;
 }
-.btn__wrapper .cta__btn--header::before {
+.btn__wrapper .cta__btn--open::before {
   content: "czytaj więcej";
 }
 
@@ -603,5 +603,30 @@ textarea {
 }
 .btn__wrapper .cta__btn--tile::before {
   content: "więcej";
+}
+
+.open {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.open .person {
+  margin: 1.5rem;
+}
+.open .person .responsive {
+  max-width: 55%;
+  height: auto;
+}
+.open .about {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  max-width: 400px;
 }
 /*# sourceMappingURL=main.css.map */
