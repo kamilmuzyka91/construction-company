@@ -1,28 +1,28 @@
-.button__wrapper {
+.btn__wrapper {
   display: block;
   text-align: center;
 
-  .button {
+  .btn--tile {
     display: inline-block;
     border: none;
     border-radius: 0;
     padding: 1em 2em;
     width: auto;
     &:hover {
-      background-color: $--bg-tile-1;
+      background-color: $--btn-hover-2;
     }
   }
 
-  .cta__button--header {
+  .cta__btn--tile {
     font-size: 1em;
-    font: normal 700 1em $main-font-1;
+    font: normal normal 1em $main-font-3;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: $--black-font-;
-    background-color: $--bg-tile-2;
     text-decoration: none;
+    color: $--black-font-;
+    letter-spacing: 1px;
+    background-color: $--bg-btn-2;
     &::before {
-      content: "read more";
+      content: "więcej";
     }
   }
 }

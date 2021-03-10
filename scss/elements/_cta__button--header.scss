@@ -1,0 +1,28 @@
+.btn__wrapper {
+  display: block;
+  text-align: center;
+
+  .btn--header {
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    padding: 1em 2em;
+    width: auto;
+    &:hover {
+      background-color: $--btn-hover-1;
+    }
+  }
+
+  .cta__btn--header {
+    font-size: 1em;
+    font: normal 700 1em $main-font-1;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $--black-font-;
+    letter-spacing: 3px;
+    background-color: $--bg-btn-1;
+    &::before {
+      content: "czytaj więcej";
+    }
+  }
+}
