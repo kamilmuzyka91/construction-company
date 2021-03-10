@@ -1,0 +1,28 @@
+.button__wrapper {
+  display: block;
+  text-align: center;
+
+  .button {
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    padding: 1em 2em;
+    width: auto;
+    &:hover {
+      background-color: $--bg-tile-1;
+    }
+  }
+
+  .cta__button--header {
+    font-size: 1em;
+    font: normal 700 1em $main-font-1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $--black-font-;
+    background-color: $--bg-tile-2;
+    text-decoration: none;
+    &::before {
+      content: "read more";
+    }
+  }
+}

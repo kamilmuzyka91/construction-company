@@ -444,4 +444,31 @@ textarea {
   color: #000;
   padding: 0.2em 0;
 }
+
+.button__wrapper {
+  display: block;
+  text-align: center;
+}
+.button__wrapper .button {
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  padding: 1em 2em;
+  width: auto;
+}
+.button__wrapper .button:hover {
+  background-color: #e2b831;
+}
+.button__wrapper .cta__button--header {
+  font-size: 1em;
+  font: normal 700 1em "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #111;
+  background-color: #f1c634;
+  text-decoration: none;
+}
+.button__wrapper .cta__button--header::before {
+  content: "read more";
+}
 /*# sourceMappingURL=main.css.map */
