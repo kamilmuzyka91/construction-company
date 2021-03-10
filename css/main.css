@@ -551,21 +551,19 @@ textarea {
   padding: 2.5rem;
 }
 
-.btn__wrapper {
-  display: block;
-  text-align: center;
-}
-.btn__wrapper .btn--open {
+.btn--welcome {
   display: inline-block;
   border: none;
   border-radius: 0;
   padding: 1em 2em;
+  margin: 2.5rem auto 0 0;
   width: auto;
 }
-.btn__wrapper .btn--open:hover {
+.btn--welcome:hover {
   background-color: #f1c634;
 }
-.btn__wrapper .cta__btn--open {
+
+.cta__btn--welcome {
   font-size: 1em;
   font: normal 700 1em "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -574,7 +572,7 @@ textarea {
   letter-spacing: 3px;
   background-color: #e2b831;
 }
-.btn__wrapper .cta__btn--open::before {
+.cta__btn--welcome::before {
   content: "czytaj więcej";
 }
 
@@ -605,28 +603,36 @@ textarea {
   content: "więcej";
 }
 
-.open {
+.welcome {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
           flex-direction: column;
-  -webkit-justify-content: center;
-          justify-content: center;
   -webkit-align-items: center;
           align-items: center;
 }
-.open .person {
+.welcome .person {
   margin: 1.5rem;
 }
-.open .person .responsive {
+.welcome .person .responsive {
   max-width: 55%;
   height: auto;
 }
-.open .about {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-          flex-direction: column;
-  max-width: 400px;
+.welcome .about {
+  max-width: 600px;
+  text-align: left;
+}
+.welcome .about .about__me {
+  font: normal 700 1.5em "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.welcome .about .about__title {
+  font: normal 700 3.5em "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+.welcome .about .about__descryption {
+  font: italic 400 1.5em "Open Sans", sans-serif;
+  font-size: 1em;
 }
 /*# sourceMappingURL=main.css.map */

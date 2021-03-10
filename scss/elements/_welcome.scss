@@ -1,0 +1,34 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .person {
+    margin: 1.5rem;
+    .responsive {
+      max-width: 55%;
+      height: auto;
+    }
+  }
+
+  .about {
+    max-width: 600px;
+    text-align: left;
+
+    .about__me {
+      font: normal 700 1.5em $main-font-2;
+      text-transform: uppercase;
+      margin: 1rem;
+    }
+
+    .about__title {
+      font: normal 700 3.5em $main-font-1;
+      text-transform: uppercase;
+    }
+
+    .about__descryption {
+      font: italic 400 1.5em $main-font-3;
+      font-size: 1em;
+    }
+  }
+}
