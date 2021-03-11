@@ -543,12 +543,24 @@ textarea {
 }
 
 .navigation__item {
-  margin-bottom: 2.5rem;
+  font: normal 400 1em "Open Sans", sans-serif;
+  padding: 20px;
+}
+.navigation__item i {
+  color: #fff;
 }
 .navigation__item a {
   text-decoration: none;
   color: #fff;
-  padding: 2.5rem;
+  margin: 2.5rem;
+}
+@media (min-width: 1025px) {
+  .navigation__item a {
+    color: #a1a1a1;
+  }
+  .navigation__item a:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
 }
 
 .btn--welcome {

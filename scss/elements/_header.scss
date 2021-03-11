@@ -88,11 +88,23 @@
 }
 
 .navigation__item {
-  margin-bottom: 2.5rem;
+  font: normal 400 1em $main-font-3;
+  padding: 20px;
+
+  i {
+    color: $--menu-icon-;
+  }
 
   a {
     text-decoration: none;
-    color: #fff;
-    padding: 2.5rem;
+    color: $--white-font-;
+    margin: 2.5rem;
+
+    @include desktop {
+      color: $--menu-font-;
+      &:hover {
+        color: $--menu-hover-;
+      }
+    }
   }
 }
