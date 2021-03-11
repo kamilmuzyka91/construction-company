@@ -620,19 +620,56 @@ textarea {
   display: flex;
   -webkit-flex-direction: column;
           flex-direction: column;
-  -webkit-align-items: center;
-          align-items: center;
+}
+@media (min-width: 1025px) {
+  .welcome {
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    width: 1088px;
+  }
 }
 .welcome .person {
   margin: 1.5rem;
 }
+@media (min-width: 1025px) {
+  .welcome .person {
+    -webkit-align-self: flex-end;
+            align-self: flex-end;
+    margin: 0;
+  }
+}
 .welcome .person .responsive {
-  max-width: 55%;
+  max-width: 45%;
   height: auto;
+}
+@media (min-width: 558px) and (max-width: 1024px) {
+  .welcome .person .responsive {
+    margint-top: 5rem;
+    max-width: 55%;
+    height: auto;
+  }
+}
+@media (min-width: 1025px) {
+  .welcome .person .responsive {
+    max-width: 100%;
+    height: auto;
+  }
 }
 .welcome .about {
   max-width: 600px;
   text-align: left;
+}
+@media (min-width: 558px) and (max-width: 1024px) {
+  .welcome .about {
+    margint-top: 5rem;
+    margin: 3rem;
+  }
+}
+@media (min-width: 1025px) {
+  .welcome .about {
+    margin-left: 4rem;
+  }
 }
 .welcome .about .about__me {
   font: normal 700 1.5em "Roboto", sans-serif;

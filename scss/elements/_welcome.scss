@@ -1,19 +1,49 @@
 .welcome {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
+
+  @include desktop {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1088px;
+  }
 
   .person {
     margin: 1.5rem;
+
+    @include desktop {
+      align-self: flex-end;
+      margin: 0;
+    }
+
     .responsive {
-      max-width: 55%;
+      max-width: 45%;
       height: auto;
+
+      @include tablet {
+        max-width: 55%;
+        height: auto;
+      }
+
+      @include desktop {
+        max-width: 100%;
+        height: auto;
+      }
     }
   }
 
   .about {
     max-width: 600px;
     text-align: left;
+
+    @include tablet {
+      margin: 3rem;
+    }
+
+    @include desktop {
+      margin-left: 4rem;
+    }
 
     .about__me {
       font: normal 700 1.5em $main-font-2;
