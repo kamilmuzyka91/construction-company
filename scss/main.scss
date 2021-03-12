@@ -1,10 +1,12 @@
 @import "./settings/index";
-@import "./elements/header";
-@import "./elements/cta__button--welcome";
-@import "./elements/cta__button--tile";
-@import "./elements/welcome";
-@import "./elements/services";
-@import "./elements/footer";
+@import "./elements/homepage/header";
+@import "./elements/homepage/cta__button--welcome";
+@import "./elements/homepage/cta__button--tile";
+@import "./elements/homepage/welcome";
+@import "./elements/homepage/services";
+@import "./elements/homepage/footer";
+
+@import "./elements/subpages/contact";
 
 * {
   box-sizing: border-box;
