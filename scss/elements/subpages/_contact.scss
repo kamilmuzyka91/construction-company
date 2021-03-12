@@ -1,1 +1,23 @@
-@import "../../../scss/main.scss";
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .contact__title {
+    font: normal 700 3.5em $main-font-1;
+    text-transform: uppercase;
+    margin: 3rem 1rem;
+    text-align: center;
+  }
+
+  .contact__item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+  }
+
+  .tile__description--mod {
+    margin: 0;
+  }
+}
