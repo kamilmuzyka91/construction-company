@@ -849,6 +849,7 @@ textarea {
 
 .tz-gallery {
   padding: 40px;
+  margin: 0 auto;
 }
 
 /* Override bootstrap column paddings */
