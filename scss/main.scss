@@ -1,3 +1,9 @@
+@import "./settings/index";
+@import "./elements/header";
+@import "./elements/cta__button--welcome";
+@import "./elements/cta__button--tile";
+@import "./elements/welcome";
+@import "./elements/services";
 * {
   box-sizing: border-box;
 }
@@ -15,9 +21,3 @@ body {
   margin: 0 auto;
   width: 1088px;
 }
-
-@import "./settings/index";
-@import "./elements/header";
-@import "./elements/cta__button--welcome";
-@import "./elements/cta__button--tile";
-@import "./elements/welcome";

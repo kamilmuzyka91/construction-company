@@ -1,22 +1,4 @@
 @charset "UTF-8";
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-}
-
-.wrapper {
-  background: #f2f2f2;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1088px;
-}
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -572,7 +554,7 @@ textarea {
   border: none;
   border-radius: 0;
   padding: 1em 2em;
-  margin: 2.5rem auto 0 0;
+  margin: 2.5rem 0 2.5rem 0;
   width: auto;
 }
 .btn--welcome:hover {
@@ -592,21 +574,18 @@ textarea {
   content: "czytaj więcej";
 }
 
-.btn__wrapper {
-  display: block;
-  text-align: center;
-}
-.btn__wrapper .btn--tile {
+.btn--tile {
   display: inline-block;
   border: none;
   border-radius: 0;
   padding: 1em 2em;
   width: auto;
 }
-.btn__wrapper .btn--tile:hover {
+.btn--tile:hover {
   background-color: #e6e6e6;
 }
-.btn__wrapper .cta__btn--tile {
+
+.cta__btn--tile {
   font-size: 1em;
   font: normal normal 1em "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -615,7 +594,7 @@ textarea {
   letter-spacing: 1px;
   background-color: #fff;
 }
-.btn__wrapper .cta__btn--tile::before {
+.cta__btn--tile::before {
   content: "więcej";
 }
 
@@ -629,8 +608,6 @@ textarea {
   .welcome {
     -webkit-flex-direction: row;
             flex-direction: row;
-    margin: 0 auto;
-    width: 1088px;
   }
 }
 .welcome .person {
@@ -687,5 +664,81 @@ textarea {
 .welcome .about .about__descryption {
   font: italic 400 1.5em "Open Sans", sans-serif;
   font-size: 1em;
+}
+
+.services {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  color: #111;
+  padding-bottom: 4rem;
+}
+.services .tile {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 300px;
+  min-height: 400px;
+  text-align: center;
+}
+.services .tile .circle {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  background: #fff;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.services .tile--1 {
+  background: #e2b831;
+}
+.services .tile--2 {
+  background: #f1c634;
+}
+.services .tile--3 {
+  background: #f5d654;
+}
+.services .tile--4 {
+  background: #f9e79b;
+}
+.services .tile__title {
+  font: normal 300 2.25em "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+.services .tile__description {
+  font: italic 400 1em "Open Sans", sans-serif;
+  margin: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background: #f2f2f2;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1088px;
 }
 /*# sourceMappingURL=main.css.map */

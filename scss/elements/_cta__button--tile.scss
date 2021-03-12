@@ -1,28 +1,23 @@
-.btn__wrapper {
-  display: block;
-  text-align: center;
-
-  .btn--tile {
-    display: inline-block;
-    border: none;
-    border-radius: 0;
-    padding: 1em 2em;
-    width: auto;
-    &:hover {
-      background-color: $--btn-hover-2;
-    }
+.btn--tile {
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  padding: 1em 2em;
+  width: auto;
+  &:hover {
+    background-color: $--btn-hover-2;
   }
+}
 
-  .cta__btn--tile {
-    font-size: 1em;
-    font: normal normal 1em $main-font-3;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: $--black-font-;
-    letter-spacing: 1px;
-    background-color: $--bg-btn-2;
-    &::before {
-      content: "więcej";
-    }
+.cta__btn--tile {
+  font-size: 1em;
+  font: normal normal 1em $main-font-3;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $--black-font-;
+  letter-spacing: 1px;
+  background-color: $--bg-btn-2;
+  &::before {
+    content: "więcej";
   }
 }
