@@ -809,6 +809,19 @@ textarea {
           flex-wrap: wrap;
   padding-top: 3rem;
 }
+@media (max-width: 557px) {
+  .contact__wrapper .contact__item .tile {
+    width: 100vw;
+  }
+}
+@media (min-width: 558px) and (max-width: 1024px) {
+  .contact__wrapper .contact__item {
+    margint-top: 5rem;
+  }
+  .contact__wrapper .contact__item .tile {
+    width: 100vw;
+  }
+}
 .contact__wrapper .tile__description--mod {
   margin: 0;
 }
