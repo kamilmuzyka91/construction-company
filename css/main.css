@@ -668,7 +668,7 @@ textarea {
 .welcome .about .about__descryption {
   font: italic 400 1.5em "Open Sans", sans-serif;
   font-size: 1em;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
 }
 
 .services {
