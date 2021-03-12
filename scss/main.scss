@@ -1,11 +1,9 @@
 @import "./settings/index";
+@import "./elements/base/index";
 @import "./elements/homepage/header";
-@import "./elements/homepage/cta__button--welcome";
-@import "./elements/homepage/cta__button--tile";
 @import "./elements/homepage/welcome";
 @import "./elements/homepage/services";
 @import "./elements/homepage/footer";
-
 @import "./elements/subpages/contact";
 
 * {
@@ -20,8 +18,3 @@ body {
 .wrapper {
   background: $--bg-main-;
 }
-
-// .container {
-//   margin: 0 auto;
-//   width: 1088px;
-// }
