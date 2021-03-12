@@ -609,6 +609,8 @@ textarea {
   .welcome {
     -webkit-flex-direction: row;
             flex-direction: row;
+    margin: 0 auto;
+    width: 1088px;
   }
 }
 .welcome .person {
@@ -785,10 +787,5 @@ body {
 
 .wrapper {
   background: #f2f2f2;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1088px;
 }
 /*# sourceMappingURL=main.css.map */
