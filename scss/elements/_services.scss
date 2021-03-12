@@ -1,0 +1,53 @@
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: $--black-font-;
+  padding-bottom: 4rem;
+  
+  .tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    min-height: 400px;
+    text-align: center;
+
+    .circle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+      text-align: center;
+      color: black;
+      background: #fff;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      margin: 1rem;
+    }
+  }
+  .tile--1 {
+    background: $--bg-tile-1;
+  }
+
+  .tile--2 {
+    background: $--bg-tile-2;
+  }
+
+  .tile--3 {
+    background: $--bg-tile-3;
+  }
+
+  .tile--4 {
+    background: $--bg-tile-4;
+  }
+  .tile__title {
+    font: normal 300 2.25em $main-font-1;
+    text-transform: uppercase;
+  }
+  .tile__description {
+    font: italic 400 1em $main-font-3;
+    margin: 2rem;
+  }
+}
