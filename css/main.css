@@ -663,6 +663,7 @@ textarea {
 .welcome .about .about__title {
   font: normal 700 3.5em "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+  margin: 0 1rem;
 }
 .welcome .about .about__descryption {
   font: italic 400 1.5em "Open Sans", sans-serif;
