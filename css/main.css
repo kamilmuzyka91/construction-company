@@ -554,7 +554,7 @@ textarea {
   border: none;
   border-radius: 0;
   padding: 1em 2em;
-  margin: 2.5rem 0 2.5rem 0;
+  margin: 1rem 0 2rem 1rem;
   width: auto;
 }
 .btn--welcome:hover {
@@ -667,6 +667,7 @@ textarea {
 .welcome .about .about__descryption {
   font: italic 400 1.5em "Open Sans", sans-serif;
   font-size: 1em;
+  margin: 0 1rem;
 }
 
 .services {
