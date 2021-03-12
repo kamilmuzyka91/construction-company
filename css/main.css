@@ -826,6 +826,15 @@ textarea {
   margin: 0;
 }
 
+@media (max-width: 557px) {
+  .row {
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+  }
+}
+
 .container.gallery-container {
   background-color: #fff;
   color: #35373a;
@@ -836,7 +845,7 @@ textarea {
 .gallery-container h1 {
   text-align: center;
   margin-top: 50px;
-  font-family: "Droid Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
 }
 
@@ -848,13 +857,12 @@ textarea {
 }
 
 .tz-gallery {
-  padding: 40px;
   margin: 0 auto;
 }
 
 /* Override bootstrap column paddings */
 .tz-gallery .row > div {
-  padding: 2px;
+  padding: 4px;
 }
 
 .tz-gallery .lightbox img {
@@ -900,11 +908,6 @@ textarea {
   background-color: transparent !important;
 }
 
-@media (max-width: 768px) {
-  body {
-    padding: 0;
-  }
-}
 * {
   box-sizing: border-box;
 }
