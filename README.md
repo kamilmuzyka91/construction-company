@@ -11,6 +11,7 @@ Chceck demo page: [demo](https://construction-company-v1.netlify.app)
 - [Pure JavaScript](https://www.javascript.com/)
 - [SASS](https://www.npmjs.com/package/sass)
 - [Browserslist](https://www.npmjs.com/package/browserslist) - optimization for all browsers
+- [Bootstrap gallery](https://getbootstrap.com/)
 
 # Speed up the website
 
