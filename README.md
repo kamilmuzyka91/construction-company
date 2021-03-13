@@ -1,6 +1,6 @@
 ## Construction-company website
 
-Chceck demo page: [demo](https://tomaszkaleta.netlify.app/)
+Chceck demo page: [demo](https://construction-company-v1.netlify.app)
 
 - This site is write in mobile first conception.
 - Written in scss and pure javascript only.
