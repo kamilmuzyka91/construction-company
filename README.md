@@ -2,8 +2,9 @@
 
 Chceck demo page: [demo](https://construction-company-v1.netlify.app)
 
-- This site is write in mobile first conception.
-- Written in scss and pure javascript only.
+- This site is write in mobile first conception
+- Written in scss and pure javascript only
+- The site has a custum hamburger menu
 
 ## This App uses:
 
