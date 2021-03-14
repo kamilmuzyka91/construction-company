@@ -2,10 +2,11 @@
 @import "./elements/base/index";
 @import "./elements/homepage/header";
 @import "./elements/homepage/welcome";
-@import "./elements/homepage/services";
-@import "./elements/homepage/footer";
-@import "./elements/subpages/contact";
+@import "./elements/homepage/services__tile";
+@import "./elements/subpages/services";
 @import "./elements/subpages/gallery";
+@import "./elements/subpages/contact";
+@import "./elements/homepage/footer";
 
 * {
   box-sizing: border-box;
