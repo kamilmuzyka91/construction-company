@@ -737,14 +737,30 @@ textarea {
   padding-bottom: 4rem;
 }
 
-.services__wrapper {
+.services {
   background: #e2b831;
 }
-.services__wrapper .services__title {
+.services .services__wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+.services .services__wrapper .services__title {
   font: normal 700 3.5em "Roboto Condensed", sans-serif;
   text-transform: uppercase;
-  margin: 3rem 1rem;
   text-align: center;
+  margin: 0;
+  padding: 3rem 1rem;
+}
+.services .services__wrapper .services__tile {
+  display: block;
+  padding: 2rem;
+}
+.services .services__wrapper .services__tile .services__list {
+  font: italic 400 1em "Open Sans", sans-serif;
+  margin: 1.5rem;
+}
+.services .services__wrapper .services__tile .services__list .services__list__item {
+  line-height: 2rem;
 }
 
 @media (max-width: 557px) {

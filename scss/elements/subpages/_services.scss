@@ -1,19 +1,30 @@
-.services__wrapper {
-  // display: flex;
-  // flex-direction: column;
+.services {
   background: $--bg-tile-1;
 
-  .services__title {
-    font: normal 700 3.5em $main-font-1;
-    text-transform: uppercase;
-    margin: 3rem 1rem;
-    text-align: center;
+  .services__wrapper {
+    margin: 0 auto;
+    width: 1200px;
+
+    .services__title {
+      font: normal 700 3.5em $main-font-1;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0;
+      padding: 3rem 1rem;
+    }
+
+    .services__tile {
+      display: block;
+      padding: 2rem;
+
+      .services__list {
+        font: italic 400 1em $main-font-3;
+        margin: 1.5rem;
+
+        .services__list__item {
+          line-height: 2rem;
+        }
+      }
+    }
   }
-  //  style to out
-  // li {
-  //   font-size: 1.5em;
-  // }
-  // p {
-  //   font-size: 1.5rem;
-  // }
 }
