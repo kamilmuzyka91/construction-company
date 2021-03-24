@@ -12,5 +12,3 @@ document.addEventListener("DOMContentLoaded", function () {
   hamburger.addEventListener("click", handleClick);
 });
 
-// gallery init
-baguetteBox.run(".tz-gallery");
