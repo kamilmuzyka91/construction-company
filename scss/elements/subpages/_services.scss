@@ -1,0 +1,19 @@
+.services__wrapper {
+  // display: flex;
+  // flex-direction: column;
+  background: $--bg-tile-1;
+
+  .services__title {
+    font: normal 700 3.5em $main-font-1;
+    text-transform: uppercase;
+    margin: 3rem 1rem;
+    text-align: center;
+  }
+  //  style to out
+  // li {
+  //   font-size: 1.5em;
+  // }
+  // p {
+  //   font-size: 1.5rem;
+  // }
+}

@@ -737,6 +737,16 @@ textarea {
   padding-bottom: 4rem;
 }
 
+.services__wrapper {
+  background: #e2b831;
+}
+.services__wrapper .services__title {
+  font: normal 700 3.5em "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin: 3rem 1rem;
+  text-align: center;
+}
+
 @media (max-width: 557px) {
   .row {
     -webkit-justify-content: center;
@@ -826,6 +836,7 @@ textarea {
           flex-direction: column;
   -webkit-align-items: center;
           align-items: center;
+  background: #e2b831;
 }
 .contact__wrapper .contact__title {
   font: normal 700 3.5em "Roboto Condensed", sans-serif;
