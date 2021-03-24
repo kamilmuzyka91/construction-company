@@ -39,3 +39,4 @@ This is a 65% gain in the loading time of the mobile version to the initial stat
 - first clone repo to Your machine git clone
 - run npm i
 - start dev server npm start
+
